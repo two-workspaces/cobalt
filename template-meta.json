@@ -1,0 +1,8 @@
+{
+  "name": "Cobalt Tools | Private Media Downloader, YouTube Ready",
+  "short_name": "Cobalt Server",
+  "description": "Cobalt media downloader API, key-locked, with a YouTube PO token server",
+  "category": "Other",
+  "image": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.34.1/icons/outline/download.svg",
+  "card_desc": "Cobalt media downloader: paste a link from YouTube, TikTok, Instagram, X and more, get the file. Locked with your own access key."
+}
