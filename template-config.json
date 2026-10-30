@@ -11,7 +11,7 @@
         "restartPolicyMaxRetries": 10
       },
       "source": {
-        "image": "ghcr.io/two-workspaces/cobalt:IMAGE_TAG"
+        "image": "ghcr.io/two-workspaces/cobalt:6dde322"
       },
       "variables": {
         "PORT": {
@@ -34,11 +34,6 @@
           "description": "Access key every request needs - auto-generated, paste it into cobalt.tools under Settings > Instances",
           "isOptional": false
         },
-        "YOUTUBE_SESSION_SERVER": {
-          "defaultValue": "http://${{YouTube-Tokens.RAILWAY_PRIVATE_DOMAIN}}:4416/",
-          "description": "PO token server for YouTube - private network, leave as is",
-          "isOptional": false
-        },
         "DURATION_LIMIT": {
           "defaultValue": "10800",
           "description": "Longest video Cobalt will process, in seconds (3 hours)",
@@ -49,24 +44,6 @@
         "serviceDomains": {
           "<hasDomain>": {}
         }
-      }
-    },
-    "9e89846b-b02d-4509-89f3-0b94e7941ff1": {
-      "icon": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.34.1/icons/outline/brand-youtube.svg",
-      "name": "YouTube-Tokens",
-      "build": {},
-      "deploy": {
-        "startCommand": "node build/main.js --host ::",
-        "healthcheckPath": null,
-        "restartPolicyType": "ON_FAILURE",
-        "restartPolicyMaxRetries": 10
-      },
-      "source": {
-        "image": "brainicism/bgutil-ytdlp-pot-provider:2.0.2-node"
-      },
-      "variables": {},
-      "networking": {
-        "serviceDomains": {}
       }
     }
   }
