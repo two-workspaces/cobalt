@@ -5,5 +5,6 @@
   "category": "Other",
   "image": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.34.1/icons/outline/download.svg",
   "card_desc": "Cobalt media downloader: paste a link from TikTok, X, Instagram, Facebook and more, get the file. Locked with your own access key.",
-  "id": "1ba0fbd8-967e-41e1-a882-f69c773f9884"
+  "id": "1ba0fbd8-967e-41e1-a882-f69c773f9884",
+  "deploy_marker": "two-workspaces/cobalt"
 }
