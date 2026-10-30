@@ -11,7 +11,7 @@
         "restartPolicyMaxRetries": 10
       },
       "source": {
-        "image": "ghcr.io/two-workspaces/cobalt:6dde322"
+        "image": "ghcr.io/two-workspaces/cobalt:24e364d"
       },
       "variables": {
         "PORT": {
